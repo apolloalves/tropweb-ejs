@@ -1,0 +1,35 @@
+{
+  "name": "tropweb-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+],
+
+"repository": {
+  "type": "git",
+  "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+},
+  "author": "Apollo Alves",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sass": "^1.50.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3"
+  }
+}

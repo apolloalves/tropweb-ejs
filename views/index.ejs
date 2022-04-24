@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <%- include('./partials/head') %> 
+  <body id="page-top">
+        <!-- Navigation -->
+    <%- include('./partials/nav') %> 
+        
+        <!-- Header -->
+        <header class="masthead">
+            <div class="container">
+                <div class="intro-text">
+                <!-- <div class="intro-lead-in">Bem vindo a Tropweb!</div> -->
+                <div class="intro-heading">Bem Vindo A Tropweb!</div>
+                <a id="btnIntro" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Conte-me mais</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Section Services -->
+        <%-  include('./partials/services') %> 
+        <!-- Section About -->
+        <%- include('./partials/about') %> 
+        <!-- Section Campaigns -->
+        <%- include ('partials/campaings.ejs') %> 
+        <!-- Our Team -->
+        <%- include ('partials/team.ejs') %> 
+        <!-- Contact -->
+        <%- include('./partials/contact') %> 
+        <!-- Footer -->
+        <%- include('./partials/footer') %> 
+        
+        <!-- Portfolio Modals -->
+        <!-- Modal 1 -->
+        <%- include('./partials/modal_1') %> 
+        <!-- Modal 2 -->
+        <%- include('./partials/modal_2') %> 
+        <!-- Modal 3 -->
+        <%- include('./partials/modal_3') %> 
+        <!-- Modal 4 -->
+        <%- include('./partials/modal_4') %> 
+        <!-- Modal 5 -->
+        <%- include('./partials/modal_5') %> 
+        <!-- Modal 6 -->
+        <%- include('./partials/modal_6') %> 
+
+    </body>
+</html>
